@@ -1,7 +1,7 @@
 'use strict'
 
-function logar (e) {
-  e.preventDefault()
+function logar (event) {
+  event.preventDefault()
   const username = document.getElementById("username").value
   let password = document.getElementById("password").value
 
@@ -18,4 +18,12 @@ function logar (e) {
 
     console.log(res)
   })
+}
+
+function voltar (v) {
+  v.preventDefault()
+}
+
+function sair (s) {
+  s.preventDefault()
 }

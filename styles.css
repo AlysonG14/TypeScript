@@ -1,3 +1,16 @@
+/* Cores usados */
+
+:root{
+  --preto: #111827;
+  --preto-cinza: #1F2937;
+  --verde: #15803D;
+  --branco: #ffffff;
+  --branco-cinza: #EDEDED;
+}
+
+
+/* Acesso global */
+
 body {
   padding: 0;
   margin: 0;
@@ -5,31 +18,98 @@ body {
   background-color: aqua;
 }
 
+
+/* Acesso à página de Login */
+
+/* Propriedades Classes */
+
 .conteiner{
   display: flex;
   justify-content: center;
-  align-items: center;
-  position: relative;
+  text-align: center;
   padding: 80px;
-  width: 100px;
+  position: relative;
 
 }
 
 .card-form{
   padding: 70px;
-  background-color: rgb(175, 171, 171);
-  border-radius: 2%;
+  background-color: var(--preto-cinza);
+  border-radius: 3%;
 }
+
+.form-group legend{
+  text-align: center;
+  color: var(--branco)
+}
+
+.text-label {
+  color: var(--branco);
+  font-size: large;
+
+}
+
+/* Propriedade IDs */
 
 #login {
   text-align: center;
+  border: 2px solid var(--verde);
+  border-radius: 30px;
+  color: var(--branco);
+  background-color: var(--preto);
+  position: relative;
+  bottom: 20px;
+
 }
 
-#form-username {
-
+#username {
+  font-size: larger;
+  padding: 10px;
+  border: none;
+  border-radius: 600px;
+  background-color: var(--branco-cinza);
 
 }
 
-#form-password {
+#password {
+  font-size: larger;
+  padding: 10px;
+  border: none;
+  border-radius: 600px;
+  background-color: var(--branco-cinza);
+
+}
+
+#btn_send {
+  height: 50px;
+  width: 200px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  color: var(--branco);
+  transition: 1s;
+  background-color: var(--preto);
+  font-size: larger;
+  margin: 20px;
+  position: relative;
+  top: 25px;
+
+}
+
+#btn_send:hover {
+  transform: scale(1.1);
+  background-color: var(--verde);
+}
+
+
+/* Acesso a página de Home */
+
+/* Propriedades Classes */
+
+.btn_back {
+  background-color: aliceblue;
+}
+
+.btn_back {
 
 }
