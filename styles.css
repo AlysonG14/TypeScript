@@ -106,6 +106,28 @@ body {
 
 /* Propriedades Classes */
 
+.title-card {
+  border: 2px;
+  color: var(--branco); 
+  border: solid var(--verde);
+  border-radius: 20px;
+  height: 80px;
+  padding: 2% 30%;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  background-color: var(--preto);
+  font-size: xx-large;
+  
+}
+
+.style_legend {
+  color: white;
+  
+}
+
 
 #btn_back {
   display: flex;
@@ -114,11 +136,13 @@ body {
   height: 50px;
   cursor: pointer;
   transition: 1s;
-  color: var(--preto);
+  color: var(--branco);
   font-size: larger;
   text-align: center;
   background-color: var(--preto);
   border: none;
+  align-items: center;
+  border-radius: 10px;
 
 }
 
@@ -130,17 +154,18 @@ body {
 
 #btn_leave{
   display: flex;
-  color: var(--branco);
   justify-content: center;
   width: 200px;
   height: 50px;
   cursor: pointer;
   transition: 1s;
-  color: var(--preto);
+  color: var(--branco);
   font-size: larger;
   text-align: center;
   background-color: var(--preto);
   border: none;
+  align-items: center;
+  border-radius: 10px;
 }
 
 #btn_leave:hover{
