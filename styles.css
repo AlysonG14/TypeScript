@@ -106,10 +106,46 @@ body {
 
 /* Propriedades Classes */
 
-.btn_back {
-  background-color: aliceblue;
+
+#btn_back {
+  display: flex;
+  justify-content: center;
+  width: 200px;
+  height: 50px;
+  cursor: pointer;
+  transition: 1s;
+  color: var(--preto);
+  font-size: larger;
+  text-align: center;
+  background-color: var(--preto);
+  border: none;
+
 }
 
-.btn_back {
+#btn_back:hover {
+  transform: scale(1.1);
+  background-color: var(--verde);
+  color: var(--branco);
+}
+
+#btn_leave{
+  display: flex;
+  color: var(--branco);
+  justify-content: center;
+  width: 200px;
+  height: 50px;
+  cursor: pointer;
+  transition: 1s;
+  color: var(--preto);
+  font-size: larger;
+  text-align: center;
+  background-color: var(--preto);
+  border: none;
+}
+
+#btn_leave:hover{
+  transform: scale(1.1);
+  background-color: var(--verde);
+  color: var(--branco);
 
 }
