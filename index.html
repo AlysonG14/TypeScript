@@ -1,37 +1,40 @@
 <!DOCTYPE html>
 <html lang="pt">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>JavaScript</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
 
-  <body>
-    <main class="conteiner">
-      <form class="card-form">
-        <div id="login">
-          <h1>Login</h1>
-        </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>JavaScript</title>
+  <link rel="stylesheet" href="CSS/styles.css" />
+</head>
 
-        <fieldset class="form-group">
-          <legend>1</legend>
-          <label class="text-label" for="username">Username:</label>
-          <input type="text" placeholder="Insert your username" id="username" />
-        </fieldset>
+<body>
+  <main class="conteiner">
+    <form class="card-form">
+      <div id="login">
+        <h1>Login</h1>
+      </div>
 
-        <fieldset class="form-group">
-          <legend>2</legend>
-          <label class="text-label" for="password">Password:</label>
-          <input type="password" placeholder="Insert your password" id="password" />
-        </fieldset>
+      <fieldset class="form-group">
+        <legend>1</legend>
+        <label class="text-label" for="username">Username:</label>
+        <input type="text" placeholder="Insert your username" id="username" />
+      </fieldset>
 
-        <button id="btn_send" type="submit" onclick="logar(event)">
-          Enviar
-        </button>
-      </form>
-    </main>
+      <fieldset class="form-group">
+        <legend>2</legend>
+        <label class="text-label" for="password">Password:</label>
+        <input type="password" placeholder="Insert your password" id="password" />
+      </fieldset>
 
-    <script src="skeleton.js"></script>
-  </body>
+      <button id="btn_send" type="submit" onclick="logar(event)">
+        Enviar
+      </button>
+    </form>
+  </main>
+
+  <script src="JS/skeleton.js"></script>
+</body>
+
 </html>

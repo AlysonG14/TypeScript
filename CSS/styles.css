@@ -6,6 +6,7 @@
   --verde: #15803D;
   --branco: #ffffff;
   --branco-cinza: #EDEDED;
+  --azul-aqua: #00ffff
 }
 
 
@@ -15,7 +16,11 @@ body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  background-color: aqua;
+  background-color: var(--azul-aqua);
+}
+
+a {
+  text-decoration: none;
 }
 
 
@@ -36,6 +41,8 @@ body {
   padding: 70px;
   background-color: var(--preto-cinza);
   border-radius: 3%;
+  position: relative;
+  top: 80px;
 }
 
 .form-group legend{

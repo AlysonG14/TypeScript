@@ -1,0 +1,48 @@
+/* Cores usados */
+
+:root {
+  --preto: #111827;
+  --preto-cinza: #1F2937;
+  --verde-escuro: #19451E;
+  --verde: #15803D;
+  --branco: #ffffff;
+  --branco-cinza: #EDEDED;
+  --azul-aqua: #00ffff
+}
+
+/* Tags Usados */
+
+body {
+  box-sizing: border-box;
+  padding: 5%;
+  margin: 0;
+  background-color: var(--azul-aqua);
+}
+
+/* Classes Usadas */
+
+.card {
+  width: 375px;
+  border: 3px solid var(--verde-escuro);
+  text-align: center;
+  background-color: var(--branco);
+  border-radius: 10px;
+  display: inline-block;
+
+}
+
+.card > img {
+  height: 200px;
+  align-items: center;
+  position: relative;
+
+}
+
+.card h1 {
+  font-size: larger;
+  padding: 1%;
+}
+
+.card h3 {
+  font-family: 'Courier New', Courier, monospace;
+}
