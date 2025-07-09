@@ -29,9 +29,10 @@ body {
   border-radius: 10px;
   display: inline-block;
 
+
 }
 
-.card > img {
+.card>img {
   height: 200px;
   align-items: center;
   position: relative;
@@ -45,4 +46,32 @@ body {
 
 .card h3 {
   font-family: 'Courier New', Courier, monospace;
+}
+
+/* ID Usados */
+
+#btn-click {
+  text-decoration: none;
+
+}
+
+/* Acesso a página de Produto */
+
+/* Tags Usados */
+
+p {
+  word-break: break-all;
+  font-size: large;
+  padding: 5%;
+
+}
+
+/* IDs Usados */
+
+#card_containerProduct {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 140px;
+
 }

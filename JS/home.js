@@ -22,12 +22,32 @@ fetch('https://dummyjson.com/products')
       price.innerHTML = product.price
       card.append(price)
 
-      const button = document.createElement('button')
-      button.type = "submit"
-      button.innerHTML = product.button
+      const addLink = document.createElement('a')
+      addLink.innerHTML = product.addButton
+      card.append(addLink)
 
+
+      addLink.addEventListener("click", function (event) {
+        event.preventDefault()
+        if (confirm('Are you sure?')) {
+          window.location = this.href
+        }
+        addLink.style.cursor = 'pointer'
+      })
 
 
     })
 
+    for (let link = 0; link < linkA.length; link++) {
+      btn_red[link].addEventListener("click", function (event) {
+        event.preventDefault();
+        if (confirm('Are you sure?')) {
+          window.location = this.href
+        }
+      })
+    }
+
   })
+
+const element = document.body.childNodes
+console.log(element)
