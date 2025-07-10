@@ -1,14 +1,15 @@
+/* Acesso a página de login */
+
 /* Cores usados */
 
-:root{
+:root {
   --preto: #111827;
-  --preto-cinza: #1F2937;
-  --verde: #15803D;
+  --preto-cinza: #1f2937;
+  --verde: #15803d;
   --branco: #ffffff;
-  --branco-cinza: #EDEDED;
-  --azul-aqua: #00ffff
+  --branco-cinza: #ededed;
+  --azul-aqua: #00ffff;
 }
-
 
 /* Acesso global */
 
@@ -23,21 +24,19 @@ a {
   text-decoration: none;
 }
 
-
 /* Acesso à página de Login */
 
 /* Propriedades Classes */
 
-.conteiner{
+.conteiner {
   display: flex;
   justify-content: center;
   text-align: center;
   padding: 80px;
   position: relative;
-
 }
 
-.card-form{
+.card-form {
   padding: 70px;
   background-color: var(--preto-cinza);
   border-radius: 3%;
@@ -45,15 +44,14 @@ a {
   top: 80px;
 }
 
-.form-group legend{
+.form-group legend {
   text-align: center;
-  color: var(--branco)
+  color: var(--branco);
 }
 
 .text-label {
   color: var(--branco);
   font-size: large;
-
 }
 
 /* Propriedade IDs */
@@ -66,7 +64,6 @@ a {
   background-color: var(--preto);
   position: relative;
   bottom: 20px;
-
 }
 
 #username {
@@ -75,7 +72,6 @@ a {
   border: none;
   border-radius: 600px;
   background-color: var(--branco-cinza);
-
 }
 
 #password {
@@ -84,7 +80,6 @@ a {
   border: none;
   border-radius: 600px;
   background-color: var(--branco-cinza);
-
 }
 
 #btn_send {
@@ -100,7 +95,6 @@ a {
   margin: 20px;
   position: relative;
   top: 25px;
-
 }
 
 #btn_send:hover {
@@ -108,76 +102,3 @@ a {
   background-color: var(--verde);
 }
 
-
-/* Acesso a página de Home */
-
-/* Propriedades Classes */
-
-.title-card {
-  border: 2px;
-  color: var(--branco); 
-  border: solid var(--verde);
-  border-radius: 20px;
-  height: 80px;
-  padding: 2% 30%;
-  display: flex;
-  justify-self: center;
-  align-items: center;
-  text-align: center;
-  position: relative;
-  background-color: var(--preto);
-  font-size: xx-large;
-  
-}
-
-.style_legend {
-  color: white;
-  
-}
-
-
-#btn_back {
-  display: flex;
-  justify-content: center;
-  width: 200px;
-  height: 50px;
-  cursor: pointer;
-  transition: 1s;
-  color: var(--branco);
-  font-size: larger;
-  text-align: center;
-  background-color: var(--preto);
-  border: none;
-  align-items: center;
-  border-radius: 10px;
-
-}
-
-#btn_back:hover {
-  transform: scale(1.1);
-  background-color: var(--verde);
-  color: var(--branco);
-}
-
-#btn_leave{
-  display: flex;
-  justify-content: center;
-  width: 200px;
-  height: 50px;
-  cursor: pointer;
-  transition: 1s;
-  color: var(--branco);
-  font-size: larger;
-  text-align: center;
-  background-color: var(--preto);
-  border: none;
-  align-items: center;
-  border-radius: 10px;
-}
-
-#btn_leave:hover{
-  transform: scale(1.1);
-  background-color: var(--verde);
-  color: var(--branco);
-
-}

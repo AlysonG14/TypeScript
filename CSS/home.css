@@ -73,5 +73,64 @@ p {
   justify-content: center;
   position: relative;
   top: 140px;
+}
 
+/* Acesso a página de Produto */
+
+/* Tags Usados */
+
+p {
+  word-break: break-all;
+  font-size: large;
+  padding: 5%;
+}
+
+/* IDs Usados */
+
+#card_containerProduct {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 140px;
+}
+
+/* Tags Usados */
+
+body {
+  box-sizing: border-box;
+  padding: 5%;
+  margin: 0;
+  background-color: var(--azul-aqua);
+}
+
+/* Classes Usadas */
+
+.card {
+  width: 375px;
+  border: 3px solid var(--verde-escuro);
+  text-align: center;
+  background-color: var(--branco);
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.card > img {
+  height: 200px;
+  align-items: center;
+  position: relative;
+}
+
+.card h1 {
+  font-size: larger;
+  padding: 1%;
+}
+
+.card h3 {
+  font-family: "Courier New", Courier, monospace;
+}
+
+/* ID Usados */
+
+#btn-click {
+  text-decoration: none;
 }
